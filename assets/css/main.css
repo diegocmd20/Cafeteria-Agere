@@ -52,3 +52,32 @@
   display: flex;
   align-items: center;
 }
+
+*, body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+.main__img {
+  width: 75%;
+}
+.main__name {
+  width: 25%;
+  justify-content: center;
+}
+.main__name .name__title {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-size: 70px;
+  margin: 0rem 4rem;
+}
+.main__name .name__subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  margin: 2rem 4rem;
+}

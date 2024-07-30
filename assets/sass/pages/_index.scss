@@ -1,0 +1,31 @@
+*,body{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+
+    &__img {
+        width: 75%;
+    }
+
+    &__name {
+        width: 25%;
+        justify-content: center;
+        
+        .name__title{
+            font-family: $font-family_PT-Mono;
+            font-weight: $font-weight_Regular;
+            font-size: $size-70;
+            margin: 0rem 4rem;
+        }
+        .name__subtitle{
+            font-family:  $font-family_Roboto;
+            font-weight: $font-weight_Light;
+            font-size: $size-30;
+            margin: 2rem 4rem;
+        }
+    }
+}
