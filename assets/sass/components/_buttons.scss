@@ -1,0 +1,19 @@
+.nav-right__login {
+    color: $color-green;
+    background-color: white;
+    border: 1px solid $color-green;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 1rem;
+    font-size: $size-18;
+    font-family: $font-family_PT-Mono;
+}
+
+.nav-right__register {
+    color: white;
+    background-color: $color-green;
+    border: 1px solid $color-green;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 1rem;
+    font-size: $size-18;
+    font-family: $font-family_PT-Mono;
+}

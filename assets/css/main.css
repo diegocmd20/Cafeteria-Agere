@@ -1,1 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.nav-right__login {
+  color: #4CA866;
+  background-color: white;
+  border: 1px solid #4CA866;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  font-family: "PT Mono", monospace;
+}
+
+.nav-right__register {
+  color: white;
+  background-color: #4CA866;
+  border: 1px solid #4CA866;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  font-family: "PT Mono", monospace;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+.nav__left {
+  display: flex;
+  align-items: center;
+}
+.nav__left .nav-left__img {
+  height: 40px;
+  width: auto;
+  margin: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.nav__left .nav-left__about {
+  font-size: 18px;
+  font-family: "PT Mono", monospace;
+  margin: 1rem;
+  color: #989797;
+}
+.nav__left .nav-left__shop {
+  font-size: 18px;
+  font-family: "PT Mono", monospace;
+  margin: 1rem;
+  color: #989797;
+}
+.nav__right {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+
+    &__left {
+        display: flex;
+        align-items: center;
+
+        .nav-left__img {
+            height: $logo-size;
+            width: auto;
+            margin: 1rem;
+            object-fit: cover;
+        }
+
+        .nav-left__about {
+            font-size: $size-18;
+            font-family: $font-family_PT-Mono;
+            margin: 1rem;
+            color: $color-gray-spanish;
+        }
+
+        .nav-left__shop {
+            font-size: $size-18;
+            font-family: $font-family_PT-Mono;
+            margin: 1rem;
+            color: $color-gray-spanish;
+        }
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+    }
+}
