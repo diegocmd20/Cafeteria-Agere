@@ -85,13 +85,15 @@ body {
 
 /* Middle Section Pending */
 .article {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   margin: 3rem 0rem;
 }
 .article__left {
   width: 75%;
-  display: flex;
+  display: inline-flex;
 }
 .article__left .article__left--paragraph {
   align-self: center;
@@ -116,11 +118,20 @@ body {
 }
 .article__right {
   width: 25%;
-  margin: 0rem 2rem;
+  display: inline-flex;
+  /* padding: 0rem 2rem; */
 }
-.article__right .article__right--img2 {
+.article__right .right-img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.article__right .right-img .img__coffee-1 {
+  position: absolute;
   width: 250px;
-  height: 200px;
+  height: 100px;
   -o-object-fit: contain;
      object-fit: contain;
-}
+  top: 0;
+  left: 0;
+}/*# sourceMappingURL=main.css.map */
