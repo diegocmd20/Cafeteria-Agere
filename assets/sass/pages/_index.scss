@@ -42,12 +42,11 @@ body {
   grid-auto-flow: row;
   align-items: center;
 
-  &__left {
+  .article__left {
     grid-area: left;
     margin: 3rem 0rem;
 
     .article__left--paragraph {
-      align-self: center;
       margin: 0rem 3rem;
       width: 20rem;
 
@@ -66,23 +65,22 @@ body {
 
   }
 
-  &__center {
+  .article__center {
     grid-area: center;
-    width: 300px;
-    height: 150px;
-    background-image: url("../../img/img-1.png");
+    width: 200px;
+    height: 100px;
+    background-image: url('../../img/img-3.png');
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
   }
 
-  &__right {
+  .article__right {
     grid-area: right;
-    width: 300px;
-    height: 150px;
-    background-image: url(../../img/img-4.png);
+    width: 200px;
+    height: 100px;
+    background-image: url("../../img/img-4.png");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
   }
 }

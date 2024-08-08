@@ -91,40 +91,38 @@ body {
   grid-auto-flow: row;
   align-items: center;
 }
-.article__left {
+.article .article__left {
   grid-area: left;
   margin: 3rem 0rem;
 }
-.article__left .article__left--paragraph {
-  align-self: center;
+.article .article__left .article__left--paragraph {
   margin: 0rem 3rem;
   width: 20rem;
 }
-.article__left .article__left--paragraph .paragraph__title {
+.article .article__left .article__left--paragraph .paragraph__title {
   font-family: "PT Mono", monospace;
   font-weight: 400;
   font-size: 30px;
 }
-.article__left .article__left--paragraph .paragraph__text {
+.article .article__left .article__left--paragraph .paragraph__text {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 16px;
 }
-.article__center {
+.article .article__center {
   grid-area: center;
-  width: 300px;
-  height: 150px;
-  background-image: url("../../img/img-1.png");
+  width: 200px;
+  height: 100px;
+  background-image: url("../../img/img-3.png");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-}
-.article__right {
-  grid-area: right;
-  width: 300px;
-  height: 150px;
-  background-image: url(../../img/img-4.png);
-  background-size: cover;
   background-repeat: no-repeat;
+}
+.article .article__right {
+  grid-area: right;
+  width: 200px;
+  height: 100px;
+  background-image: url("../../img/img-4.png");
+  background-size: cover;
   background-position: center;
 }/*# sourceMappingURL=main.css.map */
