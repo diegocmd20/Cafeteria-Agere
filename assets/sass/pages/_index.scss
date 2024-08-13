@@ -70,7 +70,7 @@ body {
     .center-img{
       width: 200px;
     height: 100px;
-    background-image: url('../img/img-4.png');
+    background-color: magenta;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,8 +81,9 @@ body {
     grid-area: right;
     width: 200px;
     height: 100px;
-    background-image: url('../img/img-3.png');
+    background-color: cyan;
     background-size: cover;
     background-position: center;
+
   }
 }
