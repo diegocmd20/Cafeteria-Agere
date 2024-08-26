@@ -111,14 +111,22 @@ body {
 }
 .article .article__center {
   grid-area: center;
-}
-.article .article__center .center-img {
+  position: relative;
+  background-color: #3C91E6;
   width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+.article .center-img {
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+  width: 100px;
   height: 100px;
-  background-color: magenta;
+  background-image: url("../img/img-4.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  z-index: 2;
 }
 .article .article__right {
   grid-area: right;
