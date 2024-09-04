@@ -113,16 +113,16 @@ body {
   grid-area: center;
   position: relative;
   background-color: #3C91E6;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 180px;
   z-index: 1;
 }
 .article .center-img {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   left: -20px;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 150px;
   background-image: url("../img/img-4.png");
   background-size: cover;
   background-position: center;
@@ -130,9 +130,24 @@ body {
 }
 .article .article__right {
   grid-area: right;
-  width: 200px;
-  height: 100px;
-  background-color: cyan;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  width: 300px;
+  height: 150px;
+  background-image: url("../img/img-2.png");
   background-size: cover;
   background-position: center;
+  z-index: 1;
+}
+.article .right-img {
+  position: absolute;
+  top: 0px;
+  right: 150px;
+  width: 50px;
+  height: 100px;
+  background-image: url("../img/img-3.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
 }/*# sourceMappingURL=main.css.map */
