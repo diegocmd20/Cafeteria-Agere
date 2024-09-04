@@ -55,8 +55,8 @@
 
 *,
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .main {
@@ -113,16 +113,17 @@ body {
   grid-area: center;
   position: relative;
   background-color: #3C91E6;
-  width: 400px;
-  height: 180px;
+  border: 0px;
+  width: 550px;
+  height: 200px;
   z-index: 1;
 }
 .article .center-img {
   position: absolute;
   bottom: 0px;
   left: -20px;
-  width: 300px;
-  height: 150px;
+  width: 400px;
+  height: 180px;
   background-image: url("../img/img-4.png");
   background-size: cover;
   background-position: center;
@@ -130,11 +131,11 @@ body {
 }
 .article .article__right {
   grid-area: right;
-  position: relative;
-  left: 0px;
+  position: fixed;
+  right: 0px;
   bottom: 0px;
-  width: 300px;
-  height: 150px;
+  width: 400px;
+  height: 200px;
   background-image: url("../img/img-2.png");
   background-size: cover;
   background-position: center;
@@ -143,9 +144,9 @@ body {
 .article .right-img {
   position: absolute;
   top: 0px;
-  right: 150px;
-  width: 50px;
-  height: 100px;
+  left: -20px;
+  width: 75px;
+  height: 125px;
   background-image: url("../img/img-3.png");
   background-size: cover;
   background-position: center;
