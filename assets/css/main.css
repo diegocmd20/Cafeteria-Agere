@@ -82,8 +82,12 @@ body {
   font-size: 30px;
   margin: 2rem 4rem;
 }
-
-/* Middle Section Pending */
+.main__arrow {
+  position: absolute;
+}
+.main__arrow .arrow__background {
+  position: absolute;
+}
 .article {
   display: grid;
   grid-template-areas: "left center right";
@@ -151,4 +155,4 @@ body {
   background-size: cover;
   background-position: center;
   z-index: 2;
-}/*# sourceMappingURL=main.css.map */
+}

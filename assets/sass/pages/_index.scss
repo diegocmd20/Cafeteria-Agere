@@ -30,9 +30,17 @@ body {
       margin: 2rem 4rem;
     }
   }
+  &__arrow{
+    position: absolute;
+    .arrow__background{
+      position: absolute;
+      .background__icon{
+        
+      }
+    }
+  }
 }
 
-/* Middle Section Pending */
 
 .article {
   display: grid;
