@@ -9,54 +9,74 @@ body {
   align-items: center;
 
   &__img {
-    width: 70%;
-    height: 26.563rem;
+    width: 80rem;
+    height: 23rem;
   }
 
   &__name {
     width: 25%;
-    justify-content: center;
 
     .name__title {
       font-family: $font-family_PT-Mono;
       font-weight: $font-weight_Regular;
       font-size: $size-70;
-      margin: 0rem 4rem;
+      margin: 0rem 3rem;
     }
 
     .name__subtitle {
       font-family: $font-family_Roboto;
       font-weight: $font-weight_Light;
       font-size: $size-30;
-      margin: 2rem 4rem;
+      margin: 0rem 3rem;
     }
   }
-  &__arrow{
+  &__arrow {
     display: flex;
     position: absolute;
-    background-color: #FFFFFF;
-    .arrow__text{
-      margin: 0.5rem 2rem;
-      .text__title{
+    justify-content: center;
+    top: 62%;
+    left: 54.5%;
+    transform: translate(-50%, -50%);
+    .arrow__text {
+      background-color: #ffffff;
+      width: 10rem;
+      padding: 0rem 1rem;
+      .text__title {
         font-family: $font-family_PT-Mono;
-      font-weight: $font-weight_Regular;
-      font-size: $size-40;
+        font-weight: $font-weight_Regular;
+        font-size: $size-40;
       }
-      .text__subtitle{
+      .text__subtitle {
         font-family: $font-family_Roboto;
         font-weight: $font-weight_Light;
         font-size: $size-16;
       }
     }
-    .arrow__background{
+    .arrow__background {
       position: relative;
-      .background__icon{
-      position: absolute;
+      background-color: #eacb31;
+      height: 5rem;
+      width: 5rem;
+      .background__icon {
+        position: absolute;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        background-color: #e4572e;
+        
+        top: -1rem;
+        left: -1rem;
+        height: 5rem;
+        width: 5rem;
+        i{
+          color: #ffffff;
+          margin: auto auto;
+          font-size: $size-30;
+        }
       }
     }
   }
 }
-
 
 .article {
   display: grid;
@@ -64,6 +84,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: row;
   align-items: center;
+  position: relative;
 
   .article__left {
     grid-area: left;
@@ -90,11 +111,11 @@ body {
   .article__center {
     grid-area: center;
     position: relative;
-    background-color: #3C91E6;
+    background-color: #3c91e6;
     border: 0px;
-    width: 625px;
-    height: 200px;
-    z-index:1;
+    width: 610px;
+    height: 12.5rem;
+    z-index: 1;
   }
 
   .center-img {
@@ -103,7 +124,7 @@ body {
     left: -20px;
     width: 400px;
     height: 180px;
-    background-image: url('../img/img-4.png');
+    background-image: url("../img/img-4.png");
     background-size: cover;
     background-position: center;
     z-index: 2;
@@ -111,24 +132,24 @@ body {
 
   .article__right {
     grid-area: right;
-    position: fixed;
+    position: absolute;
     right: 0px;
     bottom: 0px;
     width: 450px;
-    height: 225px;
-    background-image: url('../img/img-2.png');
+    height: 13rem;
+    background-image: url("../img/img-2.png");
     background-size: cover;
     background-position: center;
     z-index: 1;
   }
 
-  .right-img{
+  .right-img {
     position: absolute;
     top: 0px;
     left: -20px;
     width: 75px;
     height: 125px;
-    background-image: url('../img/img-3.png');
+    background-image: url("../img/img-3.png");
     background-size: cover;
     background-position: center;
     z-index: 2;
